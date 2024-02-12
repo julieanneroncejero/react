@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  display: flex;
+}
+.leftSidebar, .topContainer, 
+.belowContainer {
+  color: #fff;
+  text-align: center;
+}
+.leftSidebar {
+  width: 10%;
+  background:darkred;
+}
+.mainContent {
+  width: 75%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightContainer {
+  width: 15%;
+}
+.topContainer {
+  background: blue;
+  height: 40%;
+}
+.belowContainer {
+  background: orangered;
+  height: 60%;
+}
